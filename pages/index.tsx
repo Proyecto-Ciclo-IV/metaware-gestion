@@ -9,6 +9,9 @@ const Home: NextPage = () => {
       <Link href='/admin/usuarios'>
       <a className='cursor-pointer'>Ir a Admin/usuarios</a>
       </Link>
+      <div>
+        <i className='fas fa-home'></i>
+      </div>
     </div>
   );
 };
