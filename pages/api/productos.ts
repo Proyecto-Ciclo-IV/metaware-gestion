@@ -21,6 +21,15 @@ const RutaApiProductos = async (req: NextApiRequest, res: NextApiResponse) => {
         });
         res.status(200).json({ productos });
     }
+    if(req.method==='POST'){
+        const productoCreado = await prisma.producto.create({
+            data: {
+                nombre: 'Correa Taches',
+                foto: 'Foto correa',
+            },
+        });
+        res.status(200).json({ producto: productoCreado });
+    }
 };
 
 export default RutaApiProductos;
