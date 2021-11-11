@@ -1,8 +1,8 @@
-import Document, { Html, Main, NextScript } from 'next/document';
-import Head from 'next/head';
+/* eslint-disable @next/next/no-sync-scripts */
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
-    static async getInitialProps(ctx) {
+    static async getInitialProps(ctx: any) {
         const initialProps = await Document.getInitialProps(ctx);
         return { ...initialProps };
     }
@@ -11,8 +11,8 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <script src='https://kit.fontawesome.com/433667d0ds.js' crossOrigin="anonymous" />
-                <Head />
+                    <script src='https://kit.fontawesome.com/d4cd33a1a3.js' crossOrigin="anonymous" />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
