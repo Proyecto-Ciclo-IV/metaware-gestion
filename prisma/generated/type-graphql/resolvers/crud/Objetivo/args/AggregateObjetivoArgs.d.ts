@@ -1,0 +1,10 @@
+import { ObjetivoOrderByWithRelationInput } from "../../../inputs/ObjetivoOrderByWithRelationInput";
+import { ObjetivoWhereInput } from "../../../inputs/ObjetivoWhereInput";
+import { ObjetivoWhereUniqueInput } from "../../../inputs/ObjetivoWhereUniqueInput";
+export declare class AggregateObjetivoArgs {
+    where?: ObjetivoWhereInput | undefined;
+    orderBy?: ObjetivoOrderByWithRelationInput[] | undefined;
+    cursor?: ObjetivoWhereUniqueInput | undefined;
+    take?: number | undefined;
+    skip?: number | undefined;
+}

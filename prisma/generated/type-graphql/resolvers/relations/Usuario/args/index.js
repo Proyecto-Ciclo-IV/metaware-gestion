@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UsuarioSessionsArgs = exports.UsuarioProyectosLideradosArgs = exports.UsuarioInscripcionesArgs = exports.UsuarioAvancesCreadosArgs = exports.UsuarioAccountsArgs = void 0;
+var UsuarioAccountsArgs_1 = require("./UsuarioAccountsArgs");
+Object.defineProperty(exports, "UsuarioAccountsArgs", { enumerable: true, get: function () { return UsuarioAccountsArgs_1.UsuarioAccountsArgs; } });
+var UsuarioAvancesCreadosArgs_1 = require("./UsuarioAvancesCreadosArgs");
+Object.defineProperty(exports, "UsuarioAvancesCreadosArgs", { enumerable: true, get: function () { return UsuarioAvancesCreadosArgs_1.UsuarioAvancesCreadosArgs; } });
+var UsuarioInscripcionesArgs_1 = require("./UsuarioInscripcionesArgs");
+Object.defineProperty(exports, "UsuarioInscripcionesArgs", { enumerable: true, get: function () { return UsuarioInscripcionesArgs_1.UsuarioInscripcionesArgs; } });
+var UsuarioProyectosLideradosArgs_1 = require("./UsuarioProyectosLideradosArgs");
+Object.defineProperty(exports, "UsuarioProyectosLideradosArgs", { enumerable: true, get: function () { return UsuarioProyectosLideradosArgs_1.UsuarioProyectosLideradosArgs; } });
+var UsuarioSessionsArgs_1 = require("./UsuarioSessionsArgs");
+Object.defineProperty(exports, "UsuarioSessionsArgs", { enumerable: true, get: function () { return UsuarioSessionsArgs_1.UsuarioSessionsArgs; } });

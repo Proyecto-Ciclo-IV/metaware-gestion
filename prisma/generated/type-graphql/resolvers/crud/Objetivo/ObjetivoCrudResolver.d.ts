@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateObjetivoArgs } from "./args/AggregateObjetivoArgs";
+import { CreateManyObjetivoArgs } from "./args/CreateManyObjetivoArgs";
+import { CreateObjetivoArgs } from "./args/CreateObjetivoArgs";
+import { DeleteManyObjetivoArgs } from "./args/DeleteManyObjetivoArgs";
+import { DeleteObjetivoArgs } from "./args/DeleteObjetivoArgs";
+import { FindFirstObjetivoArgs } from "./args/FindFirstObjetivoArgs";
+import { FindManyObjetivoArgs } from "./args/FindManyObjetivoArgs";
+import { FindUniqueObjetivoArgs } from "./args/FindUniqueObjetivoArgs";
+import { GroupByObjetivoArgs } from "./args/GroupByObjetivoArgs";
+import { UpdateManyObjetivoArgs } from "./args/UpdateManyObjetivoArgs";
+import { UpdateObjetivoArgs } from "./args/UpdateObjetivoArgs";
+import { UpsertObjetivoArgs } from "./args/UpsertObjetivoArgs";
+import { Objetivo } from "../../../models/Objetivo";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateObjetivo } from "../../outputs/AggregateObjetivo";
+import { ObjetivoGroupBy } from "../../outputs/ObjetivoGroupBy";
+export declare class ObjetivoCrudResolver {
+    objetivo(ctx: any, info: GraphQLResolveInfo, args: FindUniqueObjetivoArgs): Promise<Objetivo | null>;
+    findFirstObjetivo(ctx: any, info: GraphQLResolveInfo, args: FindFirstObjetivoArgs): Promise<Objetivo | null>;
+    objetivos(ctx: any, info: GraphQLResolveInfo, args: FindManyObjetivoArgs): Promise<Objetivo[]>;
+    createObjetivo(ctx: any, info: GraphQLResolveInfo, args: CreateObjetivoArgs): Promise<Objetivo>;
+    createManyObjetivo(ctx: any, info: GraphQLResolveInfo, args: CreateManyObjetivoArgs): Promise<AffectedRowsOutput>;
+    deleteObjetivo(ctx: any, info: GraphQLResolveInfo, args: DeleteObjetivoArgs): Promise<Objetivo | null>;
+    updateObjetivo(ctx: any, info: GraphQLResolveInfo, args: UpdateObjetivoArgs): Promise<Objetivo | null>;
+    deleteManyObjetivo(ctx: any, info: GraphQLResolveInfo, args: DeleteManyObjetivoArgs): Promise<AffectedRowsOutput>;
+    updateManyObjetivo(ctx: any, info: GraphQLResolveInfo, args: UpdateManyObjetivoArgs): Promise<AffectedRowsOutput>;
+    upsertObjetivo(ctx: any, info: GraphQLResolveInfo, args: UpsertObjetivoArgs): Promise<Objetivo>;
+    aggregateObjetivo(ctx: any, info: GraphQLResolveInfo, args: AggregateObjetivoArgs): Promise<AggregateObjetivo>;
+    groupByObjetivo(ctx: any, info: GraphQLResolveInfo, args: GroupByObjetivoArgs): Promise<ObjetivoGroupBy[]>;
+}
