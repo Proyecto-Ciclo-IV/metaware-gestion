@@ -4,4 +4,4 @@ export { InscripcionRelationsResolver } from "./Inscripcion/InscripcionRelations
 export { ObjetivoRelationsResolver } from "./Objetivo/ObjetivoRelationsResolver";
 export { ProyectoRelationsResolver } from "./Proyecto/ProyectoRelationsResolver";
 export { SessionRelationsResolver } from "./Session/SessionRelationsResolver";
-export { UsuarioRelationsResolver } from "./Usuario/UsuarioRelationsResolver";
+export { UserRelationsResolver } from "./User/UserRelationsResolver";

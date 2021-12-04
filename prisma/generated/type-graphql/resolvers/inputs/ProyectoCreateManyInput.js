@@ -48,7 +48,7 @@ let ProyectoCreateManyInput = class ProyectoCreateManyInput {
         nullable: false
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], ProyectoCreateManyInput.prototype, "userId", void 0);
+], ProyectoCreateManyInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => Enum_EstadoProyecto_1.Enum_EstadoProyecto, {
         nullable: false

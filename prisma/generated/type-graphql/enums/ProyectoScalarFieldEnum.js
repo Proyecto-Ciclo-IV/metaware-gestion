@@ -11,7 +11,7 @@ var ProyectoScalarFieldEnum;
     ProyectoScalarFieldEnum["presupuesto"] = "presupuesto";
     ProyectoScalarFieldEnum["fechaInicio"] = "fechaInicio";
     ProyectoScalarFieldEnum["fechaFin"] = "fechaFin";
-    ProyectoScalarFieldEnum["userId"] = "userId";
+    ProyectoScalarFieldEnum["UserId"] = "UserId";
     ProyectoScalarFieldEnum["estado"] = "estado";
     ProyectoScalarFieldEnum["fase"] = "fase";
 })(ProyectoScalarFieldEnum = exports.ProyectoScalarFieldEnum || (exports.ProyectoScalarFieldEnum = {}));

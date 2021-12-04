@@ -1,7 +1,7 @@
 import { NullableIntFieldUpdateOperationsInput } from "../inputs/NullableIntFieldUpdateOperationsInput";
 import { NullableStringFieldUpdateOperationsInput } from "../inputs/NullableStringFieldUpdateOperationsInput";
 import { StringFieldUpdateOperationsInput } from "../inputs/StringFieldUpdateOperationsInput";
-import { UsuarioUpdateOneRequiredWithoutAccountsInput } from "../inputs/UsuarioUpdateOneRequiredWithoutAccountsInput";
+import { UserUpdateOneRequiredWithoutAccountsInput } from "../inputs/UserUpdateOneRequiredWithoutAccountsInput";
 export declare class AccountUpdateInput {
     id?: StringFieldUpdateOperationsInput | undefined;
     type?: StringFieldUpdateOperationsInput | undefined;
@@ -16,5 +16,5 @@ export declare class AccountUpdateInput {
     session_state?: NullableStringFieldUpdateOperationsInput | undefined;
     oauth_token_secret?: NullableStringFieldUpdateOperationsInput | undefined;
     oauth_token?: NullableStringFieldUpdateOperationsInput | undefined;
-    usuario?: UsuarioUpdateOneRequiredWithoutAccountsInput | undefined;
+    user?: UserUpdateOneRequiredWithoutAccountsInput | undefined;
 }

@@ -41,7 +41,7 @@ let AvanceMaxOrderByAggregateInput = class AvanceMaxOrderByAggregateInput {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], AvanceMaxOrderByAggregateInput.prototype, "userId", void 0);
+], AvanceMaxOrderByAggregateInput.prototype, "UserId", void 0);
 AvanceMaxOrderByAggregateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AvanceMaxOrderByAggregateInput", {
         isAbstract: true

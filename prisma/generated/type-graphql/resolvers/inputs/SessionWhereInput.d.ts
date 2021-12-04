@@ -1,6 +1,6 @@
 import { DateTimeFilter } from "../inputs/DateTimeFilter";
 import { StringFilter } from "../inputs/StringFilter";
-import { UsuarioRelationFilter } from "../inputs/UsuarioRelationFilter";
+import { UserRelationFilter } from "../inputs/UserRelationFilter";
 export declare class SessionWhereInput {
     AND?: SessionWhereInput[] | undefined;
     OR?: SessionWhereInput[] | undefined;
@@ -9,5 +9,5 @@ export declare class SessionWhereInput {
     sessionToken?: StringFilter | undefined;
     userId?: StringFilter | undefined;
     expires?: DateTimeFilter | undefined;
-    usuario?: UsuarioRelationFilter | undefined;
+    user?: UserRelationFilter | undefined;
 }

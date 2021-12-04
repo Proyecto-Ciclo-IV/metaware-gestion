@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UsuarioRelationsResolver = exports.SessionRelationsResolver = exports.ProyectoRelationsResolver = exports.ObjetivoRelationsResolver = exports.InscripcionRelationsResolver = exports.AvanceRelationsResolver = exports.AccountRelationsResolver = void 0;
+exports.UserRelationsResolver = exports.SessionRelationsResolver = exports.ProyectoRelationsResolver = exports.ObjetivoRelationsResolver = exports.InscripcionRelationsResolver = exports.AvanceRelationsResolver = exports.AccountRelationsResolver = void 0;
 var AccountRelationsResolver_1 = require("./Account/AccountRelationsResolver");
 Object.defineProperty(exports, "AccountRelationsResolver", { enumerable: true, get: function () { return AccountRelationsResolver_1.AccountRelationsResolver; } });
 var AvanceRelationsResolver_1 = require("./Avance/AvanceRelationsResolver");
@@ -13,5 +13,5 @@ var ProyectoRelationsResolver_1 = require("./Proyecto/ProyectoRelationsResolver"
 Object.defineProperty(exports, "ProyectoRelationsResolver", { enumerable: true, get: function () { return ProyectoRelationsResolver_1.ProyectoRelationsResolver; } });
 var SessionRelationsResolver_1 = require("./Session/SessionRelationsResolver");
 Object.defineProperty(exports, "SessionRelationsResolver", { enumerable: true, get: function () { return SessionRelationsResolver_1.SessionRelationsResolver; } });
-var UsuarioRelationsResolver_1 = require("./Usuario/UsuarioRelationsResolver");
-Object.defineProperty(exports, "UsuarioRelationsResolver", { enumerable: true, get: function () { return UsuarioRelationsResolver_1.UsuarioRelationsResolver; } });
+var UserRelationsResolver_1 = require("./User/UserRelationsResolver");
+Object.defineProperty(exports, "UserRelationsResolver", { enumerable: true, get: function () { return UserRelationsResolver_1.UserRelationsResolver; } });

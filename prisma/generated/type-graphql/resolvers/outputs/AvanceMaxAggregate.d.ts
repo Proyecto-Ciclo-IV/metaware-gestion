@@ -4,5 +4,5 @@ export declare class AvanceMaxAggregate {
     descripcion: string | null;
     observaciones: string | null;
     proyectoId: string | null;
-    userId: string | null;
+    UserId: string | null;
 }

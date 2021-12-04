@@ -61,7 +61,7 @@ let AvanceScalarWhereInput = AvanceScalarWhereInput_1 = class AvanceScalarWhereI
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", StringFilter_1.StringFilter)
-], AvanceScalarWhereInput.prototype, "userId", void 0);
+], AvanceScalarWhereInput.prototype, "UserId", void 0);
 AvanceScalarWhereInput = AvanceScalarWhereInput_1 = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AvanceScalarWhereInput", {
         isAbstract: true

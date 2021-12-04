@@ -13,7 +13,7 @@ export declare class ProyectoScalarWhereInput {
     presupuesto?: FloatFilter | undefined;
     fechaInicio?: DateTimeFilter | undefined;
     fechaFin?: DateTimeFilter | undefined;
-    userId?: StringFilter | undefined;
+    UserId?: StringFilter | undefined;
     estado?: EnumEnum_EstadoProyectoFilter | undefined;
     fase?: EnumEnum_FaseProyectoFilter | undefined;
 }

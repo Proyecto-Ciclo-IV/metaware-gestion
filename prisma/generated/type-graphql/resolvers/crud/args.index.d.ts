@@ -4,5 +4,5 @@ export * from "./Inscripcion/args";
 export * from "./Objetivo/args";
 export * from "./Proyecto/args";
 export * from "./Session/args";
-export * from "./Usuario/args";
+export * from "./User/args";
 export * from "./VerificationToken/args";

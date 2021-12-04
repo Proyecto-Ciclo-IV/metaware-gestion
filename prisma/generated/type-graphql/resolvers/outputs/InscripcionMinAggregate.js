@@ -41,7 +41,7 @@ let InscripcionMinAggregate = class InscripcionMinAggregate {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], InscripcionMinAggregate.prototype, "userId", void 0);
+], InscripcionMinAggregate.prototype, "UserId", void 0);
 InscripcionMinAggregate = (0, tslib_1.__decorate)([
     TypeGraphQL.ObjectType("InscripcionMinAggregate", {
         isAbstract: true

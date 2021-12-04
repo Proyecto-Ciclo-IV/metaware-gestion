@@ -6,7 +6,7 @@ const TypeGraphQL = (0, tslib_1.__importStar)(require("type-graphql"));
 const DateTimeFieldUpdateOperationsInput_1 = require("../inputs/DateTimeFieldUpdateOperationsInput");
 const EnumEnum_EstadoInscripcionFieldUpdateOperationsInput_1 = require("../inputs/EnumEnum_EstadoInscripcionFieldUpdateOperationsInput");
 const StringFieldUpdateOperationsInput_1 = require("../inputs/StringFieldUpdateOperationsInput");
-const UsuarioUpdateOneRequiredWithoutInscripcionesInput_1 = require("../inputs/UsuarioUpdateOneRequiredWithoutInscripcionesInput");
+const UserUpdateOneRequiredWithoutInscripcionesInput_1 = require("../inputs/UserUpdateOneRequiredWithoutInscripcionesInput");
 let InscripcionUpdateWithoutProyectoInput = class InscripcionUpdateWithoutProyectoInput {
 };
 (0, tslib_1.__decorate)([
@@ -34,10 +34,10 @@ let InscripcionUpdateWithoutProyectoInput = class InscripcionUpdateWithoutProyec
     (0, tslib_1.__metadata)("design:type", DateTimeFieldUpdateOperationsInput_1.DateTimeFieldUpdateOperationsInput)
 ], InscripcionUpdateWithoutProyectoInput.prototype, "fechaEgreso", void 0);
 (0, tslib_1.__decorate)([
-    TypeGraphQL.Field(_type => UsuarioUpdateOneRequiredWithoutInscripcionesInput_1.UsuarioUpdateOneRequiredWithoutInscripcionesInput, {
+    TypeGraphQL.Field(_type => UserUpdateOneRequiredWithoutInscripcionesInput_1.UserUpdateOneRequiredWithoutInscripcionesInput, {
         nullable: true
     }),
-    (0, tslib_1.__metadata)("design:type", UsuarioUpdateOneRequiredWithoutInscripcionesInput_1.UsuarioUpdateOneRequiredWithoutInscripcionesInput)
+    (0, tslib_1.__metadata)("design:type", UserUpdateOneRequiredWithoutInscripcionesInput_1.UserUpdateOneRequiredWithoutInscripcionesInput)
 ], InscripcionUpdateWithoutProyectoInput.prototype, "estudiante", void 0);
 InscripcionUpdateWithoutProyectoInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("InscripcionUpdateWithoutProyectoInput", {

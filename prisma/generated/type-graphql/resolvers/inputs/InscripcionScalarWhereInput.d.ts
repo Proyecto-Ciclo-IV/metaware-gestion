@@ -10,5 +10,5 @@ export declare class InscripcionScalarWhereInput {
     fechaIngreso?: DateTimeFilter | undefined;
     fechaEgreso?: DateTimeFilter | undefined;
     proyectoId?: StringFilter | undefined;
-    userId?: StringFilter | undefined;
+    UserId?: StringFilter | undefined;
 }

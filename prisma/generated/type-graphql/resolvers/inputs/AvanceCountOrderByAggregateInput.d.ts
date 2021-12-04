@@ -4,5 +4,5 @@ export declare class AvanceCountOrderByAggregateInput {
     descripcion?: "asc" | "desc" | undefined;
     observaciones?: "asc" | "desc" | undefined;
     proyectoId?: "asc" | "desc" | undefined;
-    userId?: "asc" | "desc" | undefined;
+    UserId?: "asc" | "desc" | undefined;
 }

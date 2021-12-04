@@ -1,5 +1,5 @@
 import { Session } from "../../../models/Session";
-import { Usuario } from "../../../models/Usuario";
+import { User } from "../../../models/User";
 export declare class SessionRelationsResolver {
-    usuario(session: Session, ctx: any): Promise<Usuario>;
+    user(session: Session, ctx: any): Promise<User>;
 }

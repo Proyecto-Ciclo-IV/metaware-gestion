@@ -6,7 +6,7 @@ import { FloatFilter } from "../inputs/FloatFilter";
 import { InscripcionListRelationFilter } from "../inputs/InscripcionListRelationFilter";
 import { ObjetivoListRelationFilter } from "../inputs/ObjetivoListRelationFilter";
 import { StringFilter } from "../inputs/StringFilter";
-import { UsuarioRelationFilter } from "../inputs/UsuarioRelationFilter";
+import { UserRelationFilter } from "../inputs/UserRelationFilter";
 export declare class ProyectoWhereInput {
     AND?: ProyectoWhereInput[] | undefined;
     OR?: ProyectoWhereInput[] | undefined;
@@ -17,8 +17,8 @@ export declare class ProyectoWhereInput {
     presupuesto?: FloatFilter | undefined;
     fechaInicio?: DateTimeFilter | undefined;
     fechaFin?: DateTimeFilter | undefined;
-    lider?: UsuarioRelationFilter | undefined;
-    userId?: StringFilter | undefined;
+    lider?: UserRelationFilter | undefined;
+    UserId?: StringFilter | undefined;
     estado?: EnumEnum_EstadoProyectoFilter | undefined;
     fase?: EnumEnum_FaseProyectoFilter | undefined;
     objetivos?: ObjetivoListRelationFilter | undefined;

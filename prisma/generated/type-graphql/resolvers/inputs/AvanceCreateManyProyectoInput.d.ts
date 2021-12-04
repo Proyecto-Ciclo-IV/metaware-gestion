@@ -3,5 +3,5 @@ export declare class AvanceCreateManyProyectoInput {
     fecha: Date;
     descripcion: string;
     observaciones: string;
-    userId: string;
+    UserId: string;
 }

@@ -7,5 +7,5 @@ export declare class ProyectoAvancesArgs {
     cursor?: AvanceWhereUniqueInput | undefined;
     take?: number | undefined;
     skip?: number | undefined;
-    distinct?: Array<"id" | "fecha" | "descripcion" | "observaciones" | "proyectoId" | "userId"> | undefined;
+    distinct?: Array<"id" | "fecha" | "descripcion" | "observaciones" | "proyectoId" | "UserId"> | undefined;
 }

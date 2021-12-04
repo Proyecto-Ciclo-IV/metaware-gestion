@@ -4,5 +4,5 @@ export { InscripcionCrudResolver } from "./Inscripcion/InscripcionCrudResolver";
 export { ObjetivoCrudResolver } from "./Objetivo/ObjetivoCrudResolver";
 export { ProyectoCrudResolver } from "./Proyecto/ProyectoCrudResolver";
 export { SessionCrudResolver } from "./Session/SessionCrudResolver";
-export { UsuarioCrudResolver } from "./Usuario/UsuarioCrudResolver";
+export { UserCrudResolver } from "./User/UserCrudResolver";
 export { VerificationTokenCrudResolver } from "./VerificationToken/VerificationTokenCrudResolver";

@@ -41,7 +41,7 @@ let InscripcionMaxOrderByAggregateInput = class InscripcionMaxOrderByAggregateIn
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], InscripcionMaxOrderByAggregateInput.prototype, "userId", void 0);
+], InscripcionMaxOrderByAggregateInput.prototype, "UserId", void 0);
 InscripcionMaxOrderByAggregateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("InscripcionMaxOrderByAggregateInput", {
         isAbstract: true

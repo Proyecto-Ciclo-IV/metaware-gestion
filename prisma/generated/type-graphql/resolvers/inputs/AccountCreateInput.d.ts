@@ -1,4 +1,4 @@
-import { UsuarioCreateNestedOneWithoutAccountsInput } from "../inputs/UsuarioCreateNestedOneWithoutAccountsInput";
+import { UserCreateNestedOneWithoutAccountsInput } from "../inputs/UserCreateNestedOneWithoutAccountsInput";
 export declare class AccountCreateInput {
     id?: string | undefined;
     type: string;
@@ -13,5 +13,5 @@ export declare class AccountCreateInput {
     session_state?: string | undefined;
     oauth_token_secret?: string | undefined;
     oauth_token?: string | undefined;
-    usuario: UsuarioCreateNestedOneWithoutAccountsInput;
+    user: UserCreateNestedOneWithoutAccountsInput;
 }

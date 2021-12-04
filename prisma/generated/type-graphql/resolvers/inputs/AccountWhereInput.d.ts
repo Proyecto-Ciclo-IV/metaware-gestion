@@ -1,7 +1,7 @@
 import { IntNullableFilter } from "../inputs/IntNullableFilter";
 import { StringFilter } from "../inputs/StringFilter";
 import { StringNullableFilter } from "../inputs/StringNullableFilter";
-import { UsuarioRelationFilter } from "../inputs/UsuarioRelationFilter";
+import { UserRelationFilter } from "../inputs/UserRelationFilter";
 export declare class AccountWhereInput {
     AND?: AccountWhereInput[] | undefined;
     OR?: AccountWhereInput[] | undefined;
@@ -20,5 +20,5 @@ export declare class AccountWhereInput {
     session_state?: StringNullableFilter | undefined;
     oauth_token_secret?: StringNullableFilter | undefined;
     oauth_token?: StringNullableFilter | undefined;
-    usuario?: UsuarioRelationFilter | undefined;
+    user?: UserRelationFilter | undefined;
 }

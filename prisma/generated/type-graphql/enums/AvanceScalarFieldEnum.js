@@ -10,7 +10,7 @@ var AvanceScalarFieldEnum;
     AvanceScalarFieldEnum["descripcion"] = "descripcion";
     AvanceScalarFieldEnum["observaciones"] = "observaciones";
     AvanceScalarFieldEnum["proyectoId"] = "proyectoId";
-    AvanceScalarFieldEnum["userId"] = "userId";
+    AvanceScalarFieldEnum["UserId"] = "UserId";
 })(AvanceScalarFieldEnum = exports.AvanceScalarFieldEnum || (exports.AvanceScalarFieldEnum = {}));
 TypeGraphQL.registerEnumType(AvanceScalarFieldEnum, {
     name: "AvanceScalarFieldEnum",

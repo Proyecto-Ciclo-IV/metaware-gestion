@@ -40,7 +40,7 @@ let AvanceMaxAggregate = class AvanceMaxAggregate {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], AvanceMaxAggregate.prototype, "userId", void 0);
+], AvanceMaxAggregate.prototype, "UserId", void 0);
 AvanceMaxAggregate = (0, tslib_1.__decorate)([
     TypeGraphQL.ObjectType("AvanceMaxAggregate", {
         isAbstract: true

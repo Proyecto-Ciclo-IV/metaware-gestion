@@ -4,5 +4,5 @@ export { Inscripcion } from "./Inscripcion";
 export { Objetivo } from "./Objetivo";
 export { Proyecto } from "./Proyecto";
 export { Session } from "./Session";
-export { Usuario } from "./Usuario";
+export { User } from "./User";
 export { VerificationToken } from "./VerificationToken";

@@ -4,5 +4,5 @@ export declare class InscripcionCreateManyInput {
     fechaIngreso: Date;
     fechaEgreso: Date;
     proyectoId: string;
-    userId: string;
+    UserId: string;
 }

@@ -43,7 +43,7 @@ let AvanceGroupBy = class AvanceGroupBy {
         nullable: false
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], AvanceGroupBy.prototype, "userId", void 0);
+], AvanceGroupBy.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => AvanceCountAggregate_1.AvanceCountAggregate, {
         nullable: true

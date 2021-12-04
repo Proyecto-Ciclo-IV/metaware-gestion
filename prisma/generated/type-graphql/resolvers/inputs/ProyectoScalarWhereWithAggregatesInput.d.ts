@@ -13,7 +13,7 @@ export declare class ProyectoScalarWhereWithAggregatesInput {
     presupuesto?: FloatWithAggregatesFilter | undefined;
     fechaInicio?: DateTimeWithAggregatesFilter | undefined;
     fechaFin?: DateTimeWithAggregatesFilter | undefined;
-    userId?: StringWithAggregatesFilter | undefined;
+    UserId?: StringWithAggregatesFilter | undefined;
     estado?: EnumEnum_EstadoProyectoWithAggregatesFilter | undefined;
     fase?: EnumEnum_FaseProyectoWithAggregatesFilter | undefined;
 }

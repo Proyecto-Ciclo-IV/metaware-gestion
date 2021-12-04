@@ -4,5 +4,5 @@ export declare enum AvanceScalarFieldEnum {
     descripcion = "descripcion",
     observaciones = "observaciones",
     proyectoId = "proyectoId",
-    userId = "userId"
+    UserId = "UserId"
 }

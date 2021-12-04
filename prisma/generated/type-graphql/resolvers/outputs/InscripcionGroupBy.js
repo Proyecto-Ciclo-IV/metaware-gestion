@@ -44,7 +44,7 @@ let InscripcionGroupBy = class InscripcionGroupBy {
         nullable: false
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], InscripcionGroupBy.prototype, "userId", void 0);
+], InscripcionGroupBy.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => InscripcionCountAggregate_1.InscripcionCountAggregate, {
         nullable: true

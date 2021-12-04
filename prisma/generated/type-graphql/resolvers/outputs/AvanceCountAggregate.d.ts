@@ -4,6 +4,6 @@ export declare class AvanceCountAggregate {
     descripcion: number;
     observaciones: number;
     proyectoId: number;
-    userId: number;
+    UserId: number;
     _all: number;
 }

@@ -47,7 +47,7 @@ let ProyectoMaxOrderByAggregateInput = class ProyectoMaxOrderByAggregateInput {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], ProyectoMaxOrderByAggregateInput.prototype, "userId", void 0);
+], ProyectoMaxOrderByAggregateInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => SortOrder_1.SortOrder, {
         nullable: true

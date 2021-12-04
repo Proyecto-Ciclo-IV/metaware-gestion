@@ -1,7 +1,7 @@
-import { UsuarioCreateNestedOneWithoutSessionsInput } from "../inputs/UsuarioCreateNestedOneWithoutSessionsInput";
+import { UserCreateNestedOneWithoutSessionsInput } from "../inputs/UserCreateNestedOneWithoutSessionsInput";
 export declare class SessionCreateInput {
     id?: string | undefined;
     sessionToken: string;
     expires: Date;
-    usuario: UsuarioCreateNestedOneWithoutSessionsInput;
+    user: UserCreateNestedOneWithoutSessionsInput;
 }

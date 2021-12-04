@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AccountCreateInput = void 0;
 const tslib_1 = require("tslib");
 const TypeGraphQL = (0, tslib_1.__importStar)(require("type-graphql"));
-const UsuarioCreateNestedOneWithoutAccountsInput_1 = require("../inputs/UsuarioCreateNestedOneWithoutAccountsInput");
+const UserCreateNestedOneWithoutAccountsInput_1 = require("../inputs/UserCreateNestedOneWithoutAccountsInput");
 let AccountCreateInput = class AccountCreateInput {
 };
 (0, tslib_1.__decorate)([
@@ -85,11 +85,11 @@ let AccountCreateInput = class AccountCreateInput {
     (0, tslib_1.__metadata)("design:type", String)
 ], AccountCreateInput.prototype, "oauth_token", void 0);
 (0, tslib_1.__decorate)([
-    TypeGraphQL.Field(_type => UsuarioCreateNestedOneWithoutAccountsInput_1.UsuarioCreateNestedOneWithoutAccountsInput, {
+    TypeGraphQL.Field(_type => UserCreateNestedOneWithoutAccountsInput_1.UserCreateNestedOneWithoutAccountsInput, {
         nullable: false
     }),
-    (0, tslib_1.__metadata)("design:type", UsuarioCreateNestedOneWithoutAccountsInput_1.UsuarioCreateNestedOneWithoutAccountsInput)
-], AccountCreateInput.prototype, "usuario", void 0);
+    (0, tslib_1.__metadata)("design:type", UserCreateNestedOneWithoutAccountsInput_1.UserCreateNestedOneWithoutAccountsInput)
+], AccountCreateInput.prototype, "user", void 0);
 AccountCreateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AccountCreateInput", {
         isAbstract: true

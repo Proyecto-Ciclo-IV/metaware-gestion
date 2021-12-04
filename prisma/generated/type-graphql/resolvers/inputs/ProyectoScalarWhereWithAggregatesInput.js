@@ -70,7 +70,7 @@ let ProyectoScalarWhereWithAggregatesInput = ProyectoScalarWhereWithAggregatesIn
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", StringWithAggregatesFilter_1.StringWithAggregatesFilter)
-], ProyectoScalarWhereWithAggregatesInput.prototype, "userId", void 0);
+], ProyectoScalarWhereWithAggregatesInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => EnumEnum_EstadoProyectoWithAggregatesFilter_1.EnumEnum_EstadoProyectoWithAggregatesFilter, {
         nullable: true

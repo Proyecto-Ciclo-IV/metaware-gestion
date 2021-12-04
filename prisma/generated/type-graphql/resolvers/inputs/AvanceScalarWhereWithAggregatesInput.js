@@ -61,7 +61,7 @@ let AvanceScalarWhereWithAggregatesInput = AvanceScalarWhereWithAggregatesInput_
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", StringWithAggregatesFilter_1.StringWithAggregatesFilter)
-], AvanceScalarWhereWithAggregatesInput.prototype, "userId", void 0);
+], AvanceScalarWhereWithAggregatesInput.prototype, "UserId", void 0);
 AvanceScalarWhereWithAggregatesInput = AvanceScalarWhereWithAggregatesInput_1 = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AvanceScalarWhereWithAggregatesInput", {
         isAbstract: true

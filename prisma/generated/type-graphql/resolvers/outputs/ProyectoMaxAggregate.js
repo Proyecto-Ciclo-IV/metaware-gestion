@@ -48,7 +48,7 @@ let ProyectoMaxAggregate = class ProyectoMaxAggregate {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], ProyectoMaxAggregate.prototype, "userId", void 0);
+], ProyectoMaxAggregate.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => Enum_EstadoProyecto_1.Enum_EstadoProyecto, {
         nullable: true

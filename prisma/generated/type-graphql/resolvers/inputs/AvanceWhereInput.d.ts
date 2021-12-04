@@ -1,7 +1,7 @@
 import { DateTimeFilter } from "../inputs/DateTimeFilter";
 import { ProyectoRelationFilter } from "../inputs/ProyectoRelationFilter";
 import { StringFilter } from "../inputs/StringFilter";
-import { UsuarioRelationFilter } from "../inputs/UsuarioRelationFilter";
+import { UserRelationFilter } from "../inputs/UserRelationFilter";
 export declare class AvanceWhereInput {
     AND?: AvanceWhereInput[] | undefined;
     OR?: AvanceWhereInput[] | undefined;
@@ -12,6 +12,6 @@ export declare class AvanceWhereInput {
     observaciones?: StringFilter | undefined;
     proyecto?: ProyectoRelationFilter | undefined;
     proyectoId?: StringFilter | undefined;
-    creadoPor?: UsuarioRelationFilter | undefined;
-    userId?: StringFilter | undefined;
+    creadoPor?: UserRelationFilter | undefined;
+    UserId?: StringFilter | undefined;
 }

@@ -1,4 +1,4 @@
-import { Usuario } from "../models/Usuario";
+import { User } from "../models/User";
 export declare class Account {
     id: string;
     userId: string;
@@ -14,5 +14,5 @@ export declare class Account {
     session_state?: string | null;
     oauth_token_secret?: string | null;
     oauth_token?: string | null;
-    usuario?: Usuario;
+    user?: User;
 }

@@ -41,7 +41,7 @@ let InscripcionCountOrderByAggregateInput = class InscripcionCountOrderByAggrega
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], InscripcionCountOrderByAggregateInput.prototype, "userId", void 0);
+], InscripcionCountOrderByAggregateInput.prototype, "UserId", void 0);
 InscripcionCountOrderByAggregateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("InscripcionCountOrderByAggregateInput", {
         isAbstract: true

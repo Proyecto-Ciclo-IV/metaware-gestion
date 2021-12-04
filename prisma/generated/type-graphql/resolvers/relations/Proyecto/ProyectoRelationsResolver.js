@@ -7,7 +7,7 @@ const Avance_1 = require("../../../models/Avance");
 const Inscripcion_1 = require("../../../models/Inscripcion");
 const Objetivo_1 = require("../../../models/Objetivo");
 const Proyecto_1 = require("../../../models/Proyecto");
-const Usuario_1 = require("../../../models/Usuario");
+const User_1 = require("../../../models/User");
 const ProyectoAvancesArgs_1 = require("./args/ProyectoAvancesArgs");
 const ProyectoInscripcionesArgs_1 = require("./args/ProyectoInscripcionesArgs");
 const ProyectoObjetivosArgs_1 = require("./args/ProyectoObjetivosArgs");
@@ -43,7 +43,7 @@ let ProyectoRelationsResolver = class ProyectoRelationsResolver {
     }
 };
 (0, tslib_1.__decorate)([
-    TypeGraphQL.FieldResolver(_type => Usuario_1.Usuario, {
+    TypeGraphQL.FieldResolver(_type => User_1.User, {
         nullable: false
     }),
     (0, tslib_1.__param)(0, TypeGraphQL.Root()),

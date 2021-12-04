@@ -49,7 +49,7 @@ let Proyecto = class Proyecto {
         nullable: false
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], Proyecto.prototype, "userId", void 0);
+], Proyecto.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => Enum_EstadoProyecto_1.Enum_EstadoProyecto, {
         nullable: false

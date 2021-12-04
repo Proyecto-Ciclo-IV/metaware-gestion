@@ -62,7 +62,7 @@ let InscripcionScalarWhereInput = InscripcionScalarWhereInput_1 = class Inscripc
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", StringFilter_1.StringFilter)
-], InscripcionScalarWhereInput.prototype, "userId", void 0);
+], InscripcionScalarWhereInput.prototype, "UserId", void 0);
 InscripcionScalarWhereInput = InscripcionScalarWhereInput_1 = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("InscripcionScalarWhereInput", {
         isAbstract: true

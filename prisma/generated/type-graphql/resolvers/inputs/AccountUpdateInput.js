@@ -6,7 +6,7 @@ const TypeGraphQL = (0, tslib_1.__importStar)(require("type-graphql"));
 const NullableIntFieldUpdateOperationsInput_1 = require("../inputs/NullableIntFieldUpdateOperationsInput");
 const NullableStringFieldUpdateOperationsInput_1 = require("../inputs/NullableStringFieldUpdateOperationsInput");
 const StringFieldUpdateOperationsInput_1 = require("../inputs/StringFieldUpdateOperationsInput");
-const UsuarioUpdateOneRequiredWithoutAccountsInput_1 = require("../inputs/UsuarioUpdateOneRequiredWithoutAccountsInput");
+const UserUpdateOneRequiredWithoutAccountsInput_1 = require("../inputs/UserUpdateOneRequiredWithoutAccountsInput");
 let AccountUpdateInput = class AccountUpdateInput {
 };
 (0, tslib_1.__decorate)([
@@ -88,11 +88,11 @@ let AccountUpdateInput = class AccountUpdateInput {
     (0, tslib_1.__metadata)("design:type", NullableStringFieldUpdateOperationsInput_1.NullableStringFieldUpdateOperationsInput)
 ], AccountUpdateInput.prototype, "oauth_token", void 0);
 (0, tslib_1.__decorate)([
-    TypeGraphQL.Field(_type => UsuarioUpdateOneRequiredWithoutAccountsInput_1.UsuarioUpdateOneRequiredWithoutAccountsInput, {
+    TypeGraphQL.Field(_type => UserUpdateOneRequiredWithoutAccountsInput_1.UserUpdateOneRequiredWithoutAccountsInput, {
         nullable: true
     }),
-    (0, tslib_1.__metadata)("design:type", UsuarioUpdateOneRequiredWithoutAccountsInput_1.UsuarioUpdateOneRequiredWithoutAccountsInput)
-], AccountUpdateInput.prototype, "usuario", void 0);
+    (0, tslib_1.__metadata)("design:type", UserUpdateOneRequiredWithoutAccountsInput_1.UserUpdateOneRequiredWithoutAccountsInput)
+], AccountUpdateInput.prototype, "user", void 0);
 AccountUpdateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AccountUpdateInput", {
         isAbstract: true

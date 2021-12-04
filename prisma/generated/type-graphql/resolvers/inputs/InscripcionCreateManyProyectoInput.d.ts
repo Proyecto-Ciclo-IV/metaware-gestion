@@ -3,5 +3,5 @@ export declare class InscripcionCreateManyProyectoInput {
     estado: "Aceptada" | "Rechazada";
     fechaIngreso: Date;
     fechaEgreso: Date;
-    userId: string;
+    UserId: string;
 }

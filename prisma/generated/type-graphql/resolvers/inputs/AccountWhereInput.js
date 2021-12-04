@@ -7,7 +7,7 @@ const TypeGraphQL = (0, tslib_1.__importStar)(require("type-graphql"));
 const IntNullableFilter_1 = require("../inputs/IntNullableFilter");
 const StringFilter_1 = require("../inputs/StringFilter");
 const StringNullableFilter_1 = require("../inputs/StringNullableFilter");
-const UsuarioRelationFilter_1 = require("../inputs/UsuarioRelationFilter");
+const UserRelationFilter_1 = require("../inputs/UserRelationFilter");
 let AccountWhereInput = AccountWhereInput_1 = class AccountWhereInput {
 };
 (0, tslib_1.__decorate)([
@@ -113,11 +113,11 @@ let AccountWhereInput = AccountWhereInput_1 = class AccountWhereInput {
     (0, tslib_1.__metadata)("design:type", StringNullableFilter_1.StringNullableFilter)
 ], AccountWhereInput.prototype, "oauth_token", void 0);
 (0, tslib_1.__decorate)([
-    TypeGraphQL.Field(_type => UsuarioRelationFilter_1.UsuarioRelationFilter, {
+    TypeGraphQL.Field(_type => UserRelationFilter_1.UserRelationFilter, {
         nullable: true
     }),
-    (0, tslib_1.__metadata)("design:type", UsuarioRelationFilter_1.UsuarioRelationFilter)
-], AccountWhereInput.prototype, "usuario", void 0);
+    (0, tslib_1.__metadata)("design:type", UserRelationFilter_1.UserRelationFilter)
+], AccountWhereInput.prototype, "user", void 0);
 AccountWhereInput = AccountWhereInput_1 = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AccountWhereInput", {
         isAbstract: true

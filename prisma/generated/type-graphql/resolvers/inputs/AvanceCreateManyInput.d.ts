@@ -4,5 +4,5 @@ export declare class AvanceCreateManyInput {
     descripcion: string;
     observaciones: string;
     proyectoId: string;
-    userId: string;
+    UserId: string;
 }

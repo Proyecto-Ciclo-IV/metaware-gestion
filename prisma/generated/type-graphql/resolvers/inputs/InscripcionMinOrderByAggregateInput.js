@@ -41,7 +41,7 @@ let InscripcionMinOrderByAggregateInput = class InscripcionMinOrderByAggregateIn
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], InscripcionMinOrderByAggregateInput.prototype, "userId", void 0);
+], InscripcionMinOrderByAggregateInput.prototype, "UserId", void 0);
 InscripcionMinOrderByAggregateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("InscripcionMinOrderByAggregateInput", {
         isAbstract: true

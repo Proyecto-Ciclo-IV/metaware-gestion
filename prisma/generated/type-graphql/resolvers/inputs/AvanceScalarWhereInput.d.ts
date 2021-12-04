@@ -9,5 +9,5 @@ export declare class AvanceScalarWhereInput {
     descripcion?: StringFilter | undefined;
     observaciones?: StringFilter | undefined;
     proyectoId?: StringFilter | undefined;
-    userId?: StringFilter | undefined;
+    UserId?: StringFilter | undefined;
 }

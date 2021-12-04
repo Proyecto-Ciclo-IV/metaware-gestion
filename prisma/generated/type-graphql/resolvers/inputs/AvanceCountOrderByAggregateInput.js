@@ -41,7 +41,7 @@ let AvanceCountOrderByAggregateInput = class AvanceCountOrderByAggregateInput {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], AvanceCountOrderByAggregateInput.prototype, "userId", void 0);
+], AvanceCountOrderByAggregateInput.prototype, "UserId", void 0);
 AvanceCountOrderByAggregateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AvanceCountOrderByAggregateInput", {
         isAbstract: true

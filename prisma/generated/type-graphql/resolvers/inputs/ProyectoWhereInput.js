@@ -12,7 +12,7 @@ const FloatFilter_1 = require("../inputs/FloatFilter");
 const InscripcionListRelationFilter_1 = require("../inputs/InscripcionListRelationFilter");
 const ObjetivoListRelationFilter_1 = require("../inputs/ObjetivoListRelationFilter");
 const StringFilter_1 = require("../inputs/StringFilter");
-const UsuarioRelationFilter_1 = require("../inputs/UsuarioRelationFilter");
+const UserRelationFilter_1 = require("../inputs/UserRelationFilter");
 let ProyectoWhereInput = ProyectoWhereInput_1 = class ProyectoWhereInput {
 };
 (0, tslib_1.__decorate)([
@@ -70,17 +70,17 @@ let ProyectoWhereInput = ProyectoWhereInput_1 = class ProyectoWhereInput {
     (0, tslib_1.__metadata)("design:type", DateTimeFilter_1.DateTimeFilter)
 ], ProyectoWhereInput.prototype, "fechaFin", void 0);
 (0, tslib_1.__decorate)([
-    TypeGraphQL.Field(_type => UsuarioRelationFilter_1.UsuarioRelationFilter, {
+    TypeGraphQL.Field(_type => UserRelationFilter_1.UserRelationFilter, {
         nullable: true
     }),
-    (0, tslib_1.__metadata)("design:type", UsuarioRelationFilter_1.UsuarioRelationFilter)
+    (0, tslib_1.__metadata)("design:type", UserRelationFilter_1.UserRelationFilter)
 ], ProyectoWhereInput.prototype, "lider", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => StringFilter_1.StringFilter, {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", StringFilter_1.StringFilter)
-], ProyectoWhereInput.prototype, "userId", void 0);
+], ProyectoWhereInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => EnumEnum_EstadoProyectoFilter_1.EnumEnum_EstadoProyectoFilter, {
         nullable: true

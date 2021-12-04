@@ -44,7 +44,7 @@ let AvanceOrderByWithAggregationInput = class AvanceOrderByWithAggregationInput 
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], AvanceOrderByWithAggregationInput.prototype, "userId", void 0);
+], AvanceOrderByWithAggregationInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => AvanceCountOrderByAggregateInput_1.AvanceCountOrderByAggregateInput, {
         nullable: true

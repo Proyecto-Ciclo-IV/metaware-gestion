@@ -4,5 +4,5 @@ export declare class InscripcionMaxAggregate {
     fechaIngreso: Date | null;
     fechaEgreso: Date | null;
     proyectoId: string | null;
-    userId: string | null;
+    UserId: string | null;
 }

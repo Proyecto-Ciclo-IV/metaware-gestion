@@ -40,7 +40,7 @@ let AvanceMinAggregate = class AvanceMinAggregate {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], AvanceMinAggregate.prototype, "userId", void 0);
+], AvanceMinAggregate.prototype, "UserId", void 0);
 AvanceMinAggregate = (0, tslib_1.__decorate)([
     TypeGraphQL.ObjectType("AvanceMinAggregate", {
         isAbstract: true

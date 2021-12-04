@@ -52,7 +52,7 @@ let ProyectoOrderByWithAggregationInput = class ProyectoOrderByWithAggregationIn
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], ProyectoOrderByWithAggregationInput.prototype, "userId", void 0);
+], ProyectoOrderByWithAggregationInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => SortOrder_1.SortOrder, {
         nullable: true

@@ -2,7 +2,7 @@ import { DateTimeFilter } from "../inputs/DateTimeFilter";
 import { EnumEnum_EstadoInscripcionFilter } from "../inputs/EnumEnum_EstadoInscripcionFilter";
 import { ProyectoRelationFilter } from "../inputs/ProyectoRelationFilter";
 import { StringFilter } from "../inputs/StringFilter";
-import { UsuarioRelationFilter } from "../inputs/UsuarioRelationFilter";
+import { UserRelationFilter } from "../inputs/UserRelationFilter";
 export declare class InscripcionWhereInput {
     AND?: InscripcionWhereInput[] | undefined;
     OR?: InscripcionWhereInput[] | undefined;
@@ -13,6 +13,6 @@ export declare class InscripcionWhereInput {
     fechaEgreso?: DateTimeFilter | undefined;
     proyecto?: ProyectoRelationFilter | undefined;
     proyectoId?: StringFilter | undefined;
-    estudiante?: UsuarioRelationFilter | undefined;
-    userId?: StringFilter | undefined;
+    estudiante?: UserRelationFilter | undefined;
+    UserId?: StringFilter | undefined;
 }

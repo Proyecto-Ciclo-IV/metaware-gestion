@@ -40,7 +40,7 @@ let AvanceCountAggregate = class AvanceCountAggregate {
         nullable: false
     }),
     (0, tslib_1.__metadata)("design:type", Number)
-], AvanceCountAggregate.prototype, "userId", void 0);
+], AvanceCountAggregate.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => TypeGraphQL.Int, {
         nullable: false

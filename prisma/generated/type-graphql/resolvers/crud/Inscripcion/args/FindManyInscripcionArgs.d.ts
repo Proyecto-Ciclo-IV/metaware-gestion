@@ -7,5 +7,5 @@ export declare class FindManyInscripcionArgs {
     cursor?: InscripcionWhereUniqueInput | undefined;
     take?: number | undefined;
     skip?: number | undefined;
-    distinct?: Array<"id" | "estado" | "fechaIngreso" | "fechaEgreso" | "proyectoId" | "userId"> | undefined;
+    distinct?: Array<"id" | "estado" | "fechaIngreso" | "fechaEgreso" | "proyectoId" | "UserId"> | undefined;
 }

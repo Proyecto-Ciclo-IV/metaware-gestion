@@ -1,4 +1,4 @@
-import { UsuarioOrderByWithRelationInput } from "../inputs/UsuarioOrderByWithRelationInput";
+import { UserOrderByWithRelationInput } from "../inputs/UserOrderByWithRelationInput";
 export declare class AccountOrderByWithRelationInput {
     id?: "asc" | "desc" | undefined;
     userId?: "asc" | "desc" | undefined;
@@ -14,5 +14,5 @@ export declare class AccountOrderByWithRelationInput {
     session_state?: "asc" | "desc" | undefined;
     oauth_token_secret?: "asc" | "desc" | undefined;
     oauth_token?: "asc" | "desc" | undefined;
-    usuario?: UsuarioOrderByWithRelationInput | undefined;
+    user?: UserOrderByWithRelationInput | undefined;
 }

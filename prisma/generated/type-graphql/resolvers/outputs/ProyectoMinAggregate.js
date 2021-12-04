@@ -48,7 +48,7 @@ let ProyectoMinAggregate = class ProyectoMinAggregate {
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], ProyectoMinAggregate.prototype, "userId", void 0);
+], ProyectoMinAggregate.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => Enum_EstadoProyecto_1.Enum_EstadoProyecto, {
         nullable: true

@@ -4,7 +4,7 @@ exports.AvanceCreateInput = void 0;
 const tslib_1 = require("tslib");
 const TypeGraphQL = (0, tslib_1.__importStar)(require("type-graphql"));
 const ProyectoCreateNestedOneWithoutAvancesInput_1 = require("../inputs/ProyectoCreateNestedOneWithoutAvancesInput");
-const UsuarioCreateNestedOneWithoutAvancesCreadosInput_1 = require("../inputs/UsuarioCreateNestedOneWithoutAvancesCreadosInput");
+const UserCreateNestedOneWithoutAvancesCreadosInput_1 = require("../inputs/UserCreateNestedOneWithoutAvancesCreadosInput");
 let AvanceCreateInput = class AvanceCreateInput {
 };
 (0, tslib_1.__decorate)([
@@ -38,10 +38,10 @@ let AvanceCreateInput = class AvanceCreateInput {
     (0, tslib_1.__metadata)("design:type", ProyectoCreateNestedOneWithoutAvancesInput_1.ProyectoCreateNestedOneWithoutAvancesInput)
 ], AvanceCreateInput.prototype, "proyecto", void 0);
 (0, tslib_1.__decorate)([
-    TypeGraphQL.Field(_type => UsuarioCreateNestedOneWithoutAvancesCreadosInput_1.UsuarioCreateNestedOneWithoutAvancesCreadosInput, {
+    TypeGraphQL.Field(_type => UserCreateNestedOneWithoutAvancesCreadosInput_1.UserCreateNestedOneWithoutAvancesCreadosInput, {
         nullable: false
     }),
-    (0, tslib_1.__metadata)("design:type", UsuarioCreateNestedOneWithoutAvancesCreadosInput_1.UsuarioCreateNestedOneWithoutAvancesCreadosInput)
+    (0, tslib_1.__metadata)("design:type", UserCreateNestedOneWithoutAvancesCreadosInput_1.UserCreateNestedOneWithoutAvancesCreadosInput)
 ], AvanceCreateInput.prototype, "creadoPor", void 0);
 AvanceCreateInput = (0, tslib_1.__decorate)([
     TypeGraphQL.InputType("AvanceCreateInput", {

@@ -1,5 +1,5 @@
 import { Proyecto } from "../models/Proyecto";
-import { Usuario } from "../models/Usuario";
+import { User } from "../models/User";
 export declare class Avance {
     id: string;
     fecha: Date;
@@ -7,6 +7,6 @@ export declare class Avance {
     observaciones: string;
     proyecto?: Proyecto;
     proyectoId: string;
-    creadoPor?: Usuario;
-    userId: string;
+    creadoPor?: User;
+    UserId: string;
 }

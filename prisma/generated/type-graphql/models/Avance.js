@@ -40,7 +40,7 @@ let Avance = class Avance {
         nullable: false
     }),
     (0, tslib_1.__metadata)("design:type", String)
-], Avance.prototype, "userId", void 0);
+], Avance.prototype, "UserId", void 0);
 Avance = (0, tslib_1.__decorate)([
     TypeGraphQL.ObjectType("Avance", {
         isAbstract: true

@@ -70,7 +70,7 @@ let ProyectoScalarWhereInput = ProyectoScalarWhereInput_1 = class ProyectoScalar
         nullable: true
     }),
     (0, tslib_1.__metadata)("design:type", StringFilter_1.StringFilter)
-], ProyectoScalarWhereInput.prototype, "userId", void 0);
+], ProyectoScalarWhereInput.prototype, "UserId", void 0);
 (0, tslib_1.__decorate)([
     TypeGraphQL.Field(_type => EnumEnum_EstadoProyectoFilter_1.EnumEnum_EstadoProyectoFilter, {
         nullable: true
